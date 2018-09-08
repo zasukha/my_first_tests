@@ -1,0 +1,7 @@
+{
+"only_words": "hello world",
+"only_numbers": "123456",
+"special_symbols": "!@#$^&*(",
+"empty": "",
+  "valid": "test@example.com"
+}
