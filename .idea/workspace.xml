@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08e94fdb-edbb-4462-91a1-04f3d0f66f1c" name="Default Changelist" comment="add new files HW_ZR , and request_data to show it Dima">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW_ZR.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW_ZR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW_ZR.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstAutoTestZasukhaR.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RegisterTest.PY" beforeDir="false" afterPath="$PROJECT_DIR$/wiki_test_hw_zasukha.PY" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +34,8 @@
           <entry key="dummy" value="33" />
           <entry key="js" value="59" />
           <entry key="json" value="116" />
-          <entry key="py" value="6669" />
-          <entry key="txt" value="57" />
+          <entry key="py" value="6757" />
+          <entry key="txt" value="155" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -59,8 +58,8 @@
         <counts>
           <entry key="JSON" value="116" />
           <entry key="JavaScript" value="59" />
-          <entry key="PLAIN_TEXT" value="90" />
-          <entry key="Python" value="6799" />
+          <entry key="PLAIN_TEXT" value="188" />
+          <entry key="Python" value="6887" />
           <entry key="Scratch" value="114" />
         </counts>
       </usages-collector>
@@ -82,13 +81,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HW_ZR.py">
+        <entry file="file://$PROJECT_DIR$/FirstAutoTestZasukhaR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="36" column="78" lean-forward="true" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
+            <state relative-caret-position="85">
+              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1536937218588" expanded="true" signature="344:353" ph="..." />
+                <element signature="e#127#142#0" expanded="true" />
+                <marker date="1536944935797" expanded="true" signature="376:385" ph="..." />
               </folding>
             </state>
           </provider>
@@ -194,6 +193,7 @@
         <option value="$PROJECT_DIR$/RegisterTest.PY" />
         <option value="$PROJECT_DIR$/wiki_test_hw_zasukha.PY" />
         <option value="$PROJECT_DIR$/HW_ZR.py" />
+        <option value="$PROJECT_DIR$/FirstAutoTestZasukhaR.py" />
       </list>
     </option>
   </component>
@@ -254,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in HW_ZR.py">
+  <component name="RunManager" selected="Python tests.Unittests in FirstAutoTestZasukhaR.py">
     <configuration name="Unittests for wiki_test_hw_zasukha" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="BeQATodayRoman" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -283,7 +283,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in HW_ZR.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in FirstAutoTestZasukhaR.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="BeQATodayRoman" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -293,7 +293,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/HW_ZR.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/FirstAutoTestZasukhaR.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -315,12 +315,12 @@
     <list>
       <item itemvalue="Python tests.Unittests in wiki_test_hw_zasukha.PY" />
       <item itemvalue="Python tests.Unittests for wiki_test_hw_zasukha" />
-      <item itemvalue="Python tests.Unittests in HW_ZR.py" />
+      <item itemvalue="Python tests.Unittests in FirstAutoTestZasukhaR.py" />
       <item itemvalue="Python tests.Unittests for wiki_test_hw_zasukha.wiki_test_hw_zasukha.test_login" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in HW_ZR.py" />
+        <item itemvalue="Python tests.Unittests in FirstAutoTestZasukhaR.py" />
         <item itemvalue="Python tests.Unittests for wiki_test_hw_zasukha.wiki_test_hw_zasukha.test_login" />
         <item itemvalue="Python tests.Unittests for wiki_test_hw_zasukha" />
       </list>
@@ -344,31 +344,24 @@
       <option name="project" value="LOCAL" />
       <updated>1536910033622</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix bugs, add new steps, add comments to HW_ZR">
+      <created>1536937469412</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1536937469412</updated>
+    </task>
+    <task id="LOCAL-00003" summary="correct code and css selectors as Dimytro wish">
+      <created>1536943883406</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1536943883406</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_HW_ZR_py - 2018.09.14 at 14h 13m 29s.xml">
-      <configuration name="Unittests in HW_ZR.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_HW_ZR_py - 2018.09.14 at 14h 23m 54s.xml">
-      <configuration name="Unittests in HW_ZR.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_wiki_test_hw_zasukha_wiki_test_hw_zasukha_test_login - 2018.09.14 at 17h 14m 42s.xml">
-      <configuration name="Unittests for wiki_test_hw_zasukha.wiki_test_hw_zasukha.test_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_wiki_test_hw_zasukha_wiki_test_hw_zasukha_test_login - 2018.09.14 at 17h 16m 09s.xml">
-      <configuration name="Unittests for wiki_test_hw_zasukha.wiki_test_hw_zasukha.test_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_wiki_test_hw_zasukha_wiki_test_hw_zasukha_test_login - 2018.09.14 at 17h 16m 56s.xml">
-      <configuration name="Unittests for wiki_test_hw_zasukha.wiki_test_hw_zasukha.test_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_wiki_test_hw_zasukha_wiki_test_hw_zasukha_test_login - 2018.09.14 at 17h 29m 01s.xml">
-      <configuration name="Unittests for wiki_test_hw_zasukha.wiki_test_hw_zasukha.test_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_wiki_test_hw_zasukha_wiki_test_hw_zasukha_test_login - 2018.09.14 at 17h 32m 42s.xml">
-      <configuration name="Unittests for wiki_test_hw_zasukha.wiki_test_hw_zasukha.test_login" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_wiki_test_hw_zasukha_wiki_test_hw_zasukha_test_login - 2018.09.14 at 17h 36m 00s.xml">
       <configuration name="Unittests for wiki_test_hw_zasukha.wiki_test_hw_zasukha.test_login" configurationId="tests" />
     </history-entry>
@@ -377,6 +370,27 @@
     </history-entry>
     <history-entry file="Unittests_in_HW_ZR_py - 2018.09.14 at 17h 58m 29s.xml">
       <configuration name="Unittests in HW_ZR.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_HW_ZR_py - 2018.09.14 at 18h 02m 53s.xml">
+      <configuration name="Unittests in HW_ZR.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_HW_ZR_py - 2018.09.14 at 19h 17m 05s.xml">
+      <configuration name="Unittests in HW_ZR.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_HW_ZR_py - 2018.09.14 at 19h 20m 24s.xml">
+      <configuration name="Unittests in HW_ZR.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_HW_ZR_py - 2018.09.14 at 19h 24m 07s.xml">
+      <configuration name="Unittests in HW_ZR.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_HW_ZR_py - 2018.09.14 at 19h 27m 16s.xml">
+      <configuration name="Unittests in HW_ZR.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_HW_ZR_py - 2018.09.14 at 19h 47m 09s.xml">
+      <configuration name="Unittests in HW_ZR.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_FirstAutoTestZasukhaR_py - 2018.09.14 at 20h 08m 09s.xml">
+      <configuration name="Unittests in FirstAutoTestZasukhaR.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -435,7 +449,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new files HW_ZR , and request_data to show it Dima" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new files HW_ZR , and request_data to show it Dima" />
+    <MESSAGE value="fix bugs, add new steps, add comments to HW_ZR" />
+    <MESSAGE value="correct code and css selectors as Dimytro wish" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct code and css selectors as Dimytro wish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -519,13 +535,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HW_ZR.py">
+    <entry file="file://$PROJECT_DIR$/FirstAutoTestZasukhaR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="36" column="78" lean-forward="true" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
+        <state relative-caret-position="85">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1536937218588" expanded="true" signature="344:353" ph="..." />
+            <element signature="e#127#142#0" expanded="true" />
+            <marker date="1536944935797" expanded="true" signature="376:385" ph="..." />
           </folding>
         </state>
       </provider>

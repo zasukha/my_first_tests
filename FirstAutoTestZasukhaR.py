@@ -12,7 +12,7 @@ password = "forester777"  # input your password
 
 
 @ddt
-class HW_ZR(unittest.TestCase):
+class FirstAutoTestZasukhaR(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome(executable_path=r"chromedriver.exe")
@@ -27,7 +27,7 @@ class HW_ZR(unittest.TestCase):
 
         self.driver.find_element_by_css_selector('input[name="wpName"]').send_keys(user_name)
         self.driver.find_element_by_css_selector('input[id="wpPassword1"]').send_keys(password)
-        self.driver.find_element_by_id("wpLoginAttempt").click()
+        self.driver.find_element_by_css_selector('button[id="wpLoginAttempt"]').click()
         self.assertTrue(self.driver.find_element_by_css_selector('li[id="pt-logout"]').is_displayed())
 
         self.driver.find_element_by_css_selector('input[id="searchInput"]').send_keys(value)
